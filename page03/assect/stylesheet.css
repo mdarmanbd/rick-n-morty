@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.text-12{
+    font-size: 12px;
+}
+.text-14{
+    font-size: 14px;
+}
+.text-16{
+    font-size: 16px;
+}
+.text-18{
+    font-size: 18px;
+}
+.text-22{
+    font-size: 22px;
+}
+.text-26{
+    font-size: 26px;
+}
+.text-48{
+    font-size: 48px;
+}
+.color-see-blue{
+    color: #14D9E6;
+}
+.bg-pag03{
+    background-image: url(../assect/img/Texture.png),url(../assect/img/Overlay\ Gradient.png),url(../assect/img/image.png);
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #191D29;
+   
+}
+.card{
+    padding: 10px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(#84F729, #15BFFD);
+    border-image-slice: 1;
+    position: relative;
+}
+.py-100{
+    padding: 100px 0px;
+}
+
+.border-end-col {
+    position: relative;
+  }
+.border-end-col::after{
+    content: '';
+    position: absolute;
+    height: 220px;
+    width: 5px;
+    top: 20%;
+    right: 0;
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(#84F729, #15BFFD);
+    border-image-slice: 1;
+  }
+  .card-two{
+    padding: 10px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(#84F729, #15BFFD);
+    border-image-slice: 1;
+    position: relative;
+}
+
+.bi-heart-fill , .bi-android2 , .bi-gender-male , .fa-earth-americas , .fa-trophy , .bi-music-note-list{
+    background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 18px;
+  }

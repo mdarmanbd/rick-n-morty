@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.secondPageBg{
+    background-image: url(../src/img/Texture\ \(1\).png),url(../src/img/Rectangle\ 5.png),url(../src/img/image.png);
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #191D29;
+}
+.text-see-blue{
+    color: #14D9E6;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.font-600{
+    font-weight: 500;
+}
+ 

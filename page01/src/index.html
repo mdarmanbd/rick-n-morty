@@ -1,0 +1,566 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--font Poppins-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&display=swap" rel="stylesheet">
+  <!--splide slider cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Rick & Morty</title>
+</head>
+<body>
+  <section class="firstPageBg ">
+    <!--logo section start-->
+    <div class="py-3 flex justify-center">
+        <img class=" " src="../src/img/Logo.png" alt="logo.png">
+    </div>
+    <!--heading container one start-->
+    <div class="pt-5 w-full flex justify-center ">
+        <div class="bubble px-2">
+            <div class="justify-end sm:justify-end md:justify-center lg:justify-center xl:justify-center flex sm:flex md:flex lg:flex xl:flex w-full sm:w-full md:w-full lg:w-full pt-5 sm:pt-5 md:pt-0 lg:pt-0 xl:pt-0">
+                <h2 class="text-white text-50 sm:text-50 md:text-80 lg:text-80 xl:text-80 capitalize font-extrabold italic">the</h2>
+                <img class=" w-1/4 sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/4 h-1 pt-0" src="../src/img/portal.png" alt="portal.png">
+                <h2 class="liner-text text-50 sm:text-50 md:text-80 lg:text-80 xl:text-80 capitalize font-extrabold">rick </h2>
+                <h2 class="hidden sm:hidden md:hidden lg:flex xl:flex andBorderTop" ></h2>
+                <h2 class="liner-text text-50 sm:text-50 md:text-80 lg:text-80 xl:text-80 capitalize font-extrabold pl-3">& </h2>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="pt-0 w-full flex justify-center">
+        <h2 class="morty-liner-text text-50 sm:text-50 md:text-80 lg:text-80 xl:text-80 capitalize font-extrabold ">morty </h2>
+        <h2 class="text-white text-50 sm:text-50 md:text-80 lg:text-80 xl:text-80 capitalize font-extrabold pl-3">wiki </h2>
+        <div class="rectangle ">
+            <img class="absolute -rotate-90" src="../src/img/gun .png" alt="gun.png">
+        </div>
+    </div>
+    <!---->
+    <div class="flex flex-col-reverse sm:flex-col-reverse md:flex-row lg:flex-row xl:flex-row justify-center w-full py-3 px-5 sm:px-5 md:px-5 lg:space-x-10 xl:space-x-10">
+        <div class="pt-5 sm:pt-5 md:pt-5 lg:pt-0 xl:pt-0 ">
+            <a href="https://www.youtube.com/watch?v=KQ9Cgdsa9tc">
+                <button class="btn-bg py-2 px-2 text-18 text-white font-semibold rounded-full cursor-pointer"> <i class="fa-regular fa-circle-play px-1"></i> Watch Now</button>
+            </a>
+        </div>
+        <div class="w-3/5 sm:w-3/5 md:w-1/2 lg:w-1/4 xl:w-1/4">
+            <p class="text-12 font-semibold color-brilint p-0 sm:p-0 md:p-5 lg:p-0 xl:p-0">Brilliant but boozy scientist Rick hijacks his fretful teenage grandson, Morty, for wild escapades in other worlds and alternate dimensions.</p>
+        </div>
+    </div>
+    <!-- meat and right button section-->
+    <div class="w-full flex justify-between py-3">
+        <div class="px-3">
+            <p class="text-white text-22 font-medium">Meet the cast</p>
+        </div>
+        <div class="px-3">
+            <button class="view-btn cursor-pointer">View all</button>
+        </div>
+    </div>
+    <!-- first slider & eight cols-->
+    <div class="px-3">
+        <div class="splide relative" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows  pt-2 ">
+                <button
+                        class="splide__arrow splide__arrow--prev previous "
+                        type="button"
+                        aria-label="Previous slide"
+                        aria-controls="splide01-track"
+                >
+                    <svg class=" " xmlns="http://www.w3.org/2000/svg" width="10.854" height="20.707" viewBox="0 0 10.854 20.707">
+                        <g id="arrow-icon" transform="translate(17.854 -7.146) rotate(90)">
+                            <path id="Path_9949" data-name="Path 9949" d="M7.5,17.5l10-10,10,10" fill="none" stroke="#9DFE00" stroke-linejoin="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+                </button>
+                <button
+                        class="splide__arrow splide__arrow--next next"
+                        type="button"
+                        aria-label="Next slide"
+                        aria-controls="splide01-track"
+                >
+                    <svg class=" " xmlns="http://www.w3.org/2000/svg" width="10.854" height="20.707" viewBox="0 0 10.854 20.707">
+                        <g id="arrow-icon" transform="translate(17.854 -7.146) rotate(90)">
+                            <path id="Path_9949" data-name="Path 9949" d="M7.5,17.5l10-10,10,10" fill="none" stroke="#9DFE00" stroke-linejoin="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="splide__track">
+                  <ul id="firstBlock" class="splide__list gap-5 " >
+                        
+                  </ul>
+            </div>
+          </div>
+    </div>
+    <div class="flex justify-start">
+        <p class="text-white text-22 px-3 py-3 font-medium">Episodes</p>
+    </div>
+    <!-- second slider & seven episodes col card-->
+    <div class="px-3">
+        <div id="second-slider" class="splide relative" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows  pt-2 ">
+                <button
+                        class="splide__arrow splide__arrow--prev previous "
+                        type="button"
+                        aria-label="Previous slide"
+                        aria-controls="splide01-track"
+                >
+                    <svg class=" " xmlns="http://www.w3.org/2000/svg" width="10.854" height="20.707" viewBox="0 0 10.854 20.707">
+                        <g id="arrow-icon" transform="translate(17.854 -7.146) rotate(90)">
+                            <path id="Path_9949" data-name="Path 9949" d="M7.5,17.5l10-10,10,10" fill="none" stroke="#9DFE00" stroke-linejoin="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+                </button>
+                <button
+                        class="splide__arrow splide__arrow--next next"
+                        type="button"
+                        aria-label="Next slide"
+                        aria-controls="splide01-track"
+                >
+                    <svg class=" " xmlns="http://www.w3.org/2000/svg" width="10.854" height="20.707" viewBox="0 0 10.854 20.707">
+                        <g id="arrow-icon" transform="translate(17.854 -7.146) rotate(90)">
+                            <path id="Path_9949" data-name="Path 9949" d="M7.5,17.5l10-10,10,10" fill="none" stroke="#9DFE00" stroke-linejoin="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="splide__track">
+                  <ul class="splide__list gap-2 " >
+                        <li class="splide__slide ">
+                            <div class="  ">
+                                <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                    <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#84F729"/>
+                                    <stop offset="1" stop-color="#15BFFD"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="absolute top-0 w-full p-3">
+                                    <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E01</p>
+                                    <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Pilot</p>
+                                </div>
+                              
+                            </div>
+                        </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3 ">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E02</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Lawnmower Dog</p>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E03</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Anatomy Park</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E04</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">M. Night Shaym-Aliens!</p>
+                            </div>
+                           
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E05</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Meeseeks Destroy</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E06</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium capitalize">rick potion #9</p>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">S01 E07</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium capitalize">raising gazorpazorp</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                  </ul>
+            </div>
+          </div>
+    </div>
+    <div class="flex justify-start">
+        <p class="text-white text-22 px-3 py-3 font-medium capitalize">Locations</p>
+    </div>
+    <!-- third-slider & seven locations col card-->
+    <div class="px-3 pb-14">
+        <div id="third-slider" class="splide relative" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows  pt-2 ">
+                <button
+                        class="splide__arrow splide__arrow--prev previous "
+                        type="button"
+                        aria-label="Previous slide"
+                        aria-controls="splide01-track"
+                >
+                    <svg class=" " xmlns="http://www.w3.org/2000/svg" width="10.854" height="20.707" viewBox="0 0 10.854 20.707">
+                        <g id="arrow-icon" transform="translate(17.854 -7.146) rotate(90)">
+                            <path id="Path_9949" data-name="Path 9949" d="M7.5,17.5l10-10,10,10" fill="none" stroke="#9DFE00" stroke-linejoin="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+                </button>
+                <button
+                        class="splide__arrow splide__arrow--next next"
+                        type="button"
+                        aria-label="Next slide"
+                        aria-controls="splide01-track"
+                >
+                    <svg class=" " xmlns="http://www.w3.org/2000/svg" width="10.854" height="20.707" viewBox="0 0 10.854 20.707">
+                        <g id="arrow-icon" transform="translate(17.854 -7.146) rotate(90)">
+                            <path id="Path_9949" data-name="Path 9949" d="M7.5,17.5l10-10,10,10" fill="none" stroke="#9DFE00" stroke-linejoin="round" stroke-width="1"/>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="splide__track">
+                  <ul class="splide__list gap-2 " >
+                        <li class="splide__slide ">
+                            <div class=" ">
+                                <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                    <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#84F729"/>
+                                    <stop offset="1" stop-color="#15BFFD"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="absolute top-0 w-full p-3">
+                                    <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#1</p>
+                                    <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Earth (C-137)</p>
+                                </div>
+                                
+                            </div>
+                        </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3 ">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#2</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Abadango</p>
+                            </div>
+                           
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3 ">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#3</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Citadel of Ricks</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#4</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Worldender's Lair</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="  ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#5</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium">Anatomy Park</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#6</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium capitalize">interdimentional cable</p>
+                            </div>
+                            
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M360 10C360 4.47715 355.523 0 350 0H10C4.47715 0 0 4.47715 0 10V86C0 91.5229 4.47714 96 9.99998 96H310.149C312.368 96 314.523 95.2622 316.277 93.9027L356.128 63.0026C358.57 61.1085 360 58.1911 360 55.0999V10Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M350 0.5C355.247 0.5 359.5 4.75329 359.5 10V55.0999C359.5 58.0365 358.142 60.808 355.821 62.6075L315.97 93.5075C314.305 94.7991 312.257 95.5 310.149 95.5H9.99998C4.75328 95.5 0.5 91.2467 0.5 86V10C0.5 4.7533 4.7533 0.5 10 0.5H350Z" stroke="url(#paint0_linear_1_381)" stroke-opacity="0.7"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1_381" x1="391.629" y1="99.3134" x2="371.719" y2="-40.0534" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3">
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-normal uppercase">#7</p>
+                                <p class="text-white text-12 sm:text-12 md:text-12 lg:text-16 xl:text-16 font-medium capitalize">immortality field resort</p>
+                            </div>
+                           
+                        </div>
+                      </li>
+                  </ul>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../src/index.js"></script>
+  <!--splide slider-->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<script>
+    // first slide
+    document.addEventListener( 'DOMContentLoaded', function() {
+   
+        var splide = new Splide( '.splide', {
+        perPage: 6,
+        focus  : 0,
+        omitEnd: true,
+        pagination:false,
+        breakpoints: {
+            820:{
+                perPage: 2,
+            },
+            768:{
+                perPage: 2,
+            },
+            640: {
+                perPage: 2,
+            },
+            480: {
+                perPage: 2,
+            }
+        }
+        } );
+        splide.mount();
+    } );
+    // second slide
+    document.addEventListener('DOMContentLoaded', function () {
+      new Splide('#second-slider', {
+        perPage: 5,
+        focus  : 0,
+        omitEnd: true,
+        pagination:false,
+        breakpoints: {
+            820:{
+                perPage: 2,
+            },
+            768:{
+                perPage: 2,
+            },
+            640: {
+                perPage: 2,
+            },
+            480: {
+                perPage: 2,
+            }
+        }
+        } ).mount();
+    });
+    // third slider
+    document.addEventListener('DOMContentLoaded', function () {
+      new Splide('#third-slider', {
+        perPage: 5,
+        focus  : 0,
+        omitEnd: true,
+        pagination:false,
+        breakpoints: {
+            820:{
+                perPage: 2,
+            },
+            768:{
+                perPage: 2,
+            },
+            640: {
+                perPage: 2,
+            },
+            480: {
+                perPage: 2,
+            }
+        }
+        } ).mount();
+    });
+    
+    let slider = '';
+
+    $.ajax({
+    url: "https://rickandmortyapi.com/api/character",
+    method: "GET",
+    success: function(response) {
+        response.results.forEach(function(character) {
+            console.log(character);
+            
+            slider += `<li class="splide__slide">
+                        <div class=" ">
+                            <svg style="width:100%; height:100%" width="290" height="296" viewBox="0 0 290 296" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_b_1585_26)">
+                                <path d="M284.218 249.988C287.81 247.791 290 243.883 290 239.672L290 12.0933C290 5.41437 284.586 0 277.907 0L12.0934 0C5.41437 0 0 5.41437 0 12.0933L0 283.907C0 290.586 5.41437 296 12.0934 296L205.6 296C207.827 296 210.011 295.385 211.91 294.223L284.218 249.988Z" fill="white" fill-opacity="0.05"/>
+                                <path d="M289.622 239.672C289.622 243.752 287.5 247.537 284.02 249.666L211.713 293.9C209.873 295.026 207.757 295.622 205.6 295.622L12.0934 295.622C5.62308 295.622 0.37793 290.377 0.37793 283.907L0.37793 12.0933C0.37793 5.62308 5.62308 0.37793 12.0934 0.37793L277.907 0.37793C284.377 0.37793 289.622 5.62308 289.622 12.0933L289.622 239.672Z" stroke="url(#paint0_linear_1585_26)" stroke-opacity="0.7" stroke-width="0.755833"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_b_1585_26" x="-7.55833" y="-7.55833" width="305.117" height="311.117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="3.77917"/>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1585_26"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1585_26" result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_1585_26" x1="-25.4789" y1="-10.2162" x2="159.097" y2="327.342" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#84F729"/>
+                                <stop offset="1" stop-color="#15BFFD"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="absolute top-0 w-full p-3  ">
+                                <img style="max-width: 90%" class="card-img" src="${character.image}" alt="img64.jpg">
+                                <p class="text-10 sm:text-10 md:text-10 lg:text-16 xl:text-16 text-white font-Poppins py-2">${character.name}</p>
+                            </div>
+                           
+                        </div>
+                      </li>`;
+
+                      $('#firstBlock').html(slider);
+        });
+    }});
+
+
+</script>
+
+</body>
+</html>
