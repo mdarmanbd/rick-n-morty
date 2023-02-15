@@ -1,7 +1,5 @@
 # Welcome to Rick n Morty!
 
-Description will go here
-
 i will try to complete ricy & morty project which you provide me.
 i given to best afford for make a project. i applied the css framework
 
