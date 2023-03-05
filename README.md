@@ -1,7 +1,7 @@
 # Welcome to Rick n Morty!
 
 i will try to complete ricy & morty project which you provide me.
-i given to best afford for make a project. i applied the css framework
+i given to best afford for make a project. i applied below this css framework
 
 # tailwind
 
